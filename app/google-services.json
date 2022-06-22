@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "28644483423",
+    "firebase_url": "https://blend-4a9e4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "blend-4a9e4",
+    "storage_bucket": "blend-4a9e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28644483423:android:2dd3be350abfd1acd7d6ea",
+        "android_client_info": {
+          "package_name": "com.android.blend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28644483423-0vfoiccefelk395ks09atf3q9nhibb3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.blend",
+            "certificate_hash": "67182db4b3500a4beac70e13c0ef8f8701446ee3"
+          }
+        },
+        {
+          "client_id": "28644483423-1a7bfdpa9otj7188hhrv81ljt6oj2q3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLCMgnTkL7-sv21pIfRfw4Q4gw8j8t8lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28644483423-1a7bfdpa9otj7188hhrv81ljt6oj2q3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

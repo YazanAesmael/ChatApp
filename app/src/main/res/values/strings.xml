@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="phone_number">+xx xxx xxxx xxx</string>
+    <string name="name">What\'s your name?</string>
+    <string name="pin">PIN</string>
+    <string name="enter">Enter</string>
+    <string name="create_a_new_account">Create a new account.</string>
+    <string name="user_profile_picture">user profile picture</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="next">Next</string>
+    <string name="_6_digit_code">6 Digit Code</string>
+    <string name="please_enter_the_verification_code">Enter The Verification Code.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="menu_sign_out">menu_sign_out</string>
+    <string name="new_message">New Message</string>
+    <string name="menu_new_message">menu_new_message</string>
+    <string name="settings">Settings</string>
+    <string name="menu_settings">menu_Settings</string>
+    <string name="user_name_nc">user name</string>
+    <string name="user_name">Name</string>
+    <string name="et_message_box_hint">Say Hi!</string>
+    <string name="attachment_button_description">attachment_button</string>
+    <string name="camera_button_description">camera_button_description</string>
+    <string name="send_button_description">send_button_description</string>
+    <string name="message_text_field">message_text_field</string>
+    <string name="third_option_options_layout">Message details</string>
+    <string name="second_option_options_layout">Delete for me</string>
+    <string name="first_option_options_layout">Delete for every one</string>
+    <string name="enter_your_phone_number_with_your_country_code">Enter your phone number with your country code</string>
+    <string name="send_code">send code</string>
+    <string name="finish">finish</string>
+    <string name="latest_message">Latest message</string>
+    <string name="status">Status</string>
+
+    <string name="AdminDatabaseURL">https://blend-4a9e4-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="bio">Bio</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="delete_account">Delete Account</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/catskill_white"
+    android:orientation="vertical"
+    tools:context=".activities.activities.AuthenticatePhoneActivity">
+
+    <TextView
+        android:id="@+id/tv_logo_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/periwinkle_gray"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_enter_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:text="@string/please_enter_the_verification_code"
+        android:textColor="#BF000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/til_confirmation_code"
+        app:layout_constraintEnd_toEndOf="@+id/tv_logo_bar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tv_logo_bar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_logo_bar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/til_confirmation_code"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_corners"
+        android:hint="@string/_6_digit_code"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="@+id/tv_enter_code"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tv_enter_code"
+        app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:backgroundTint="@color/blue_haze"
+        android:textColor="#696969"
+        android:text="@string/next"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/til_confirmation_code"
+        app:layout_constraintStart_toStartOf="@+id/til_confirmation_code"
+        app:layout_constraintTop_toBottomOf="@+id/til_confirmation_code" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
