@@ -24,5 +24,3 @@ Here are some screenshots from the app
 ![7](https://user-images.githubusercontent.com/97782768/175160788-a67220bb-edfa-4494-9d4d-bd21bef24e8a.jpg)
 ![8](https://user-images.githubusercontent.com/97782768/175160796-794ca5d6-ff8f-4711-a78a-b386ccea6615.jpg)
 
-
-feel free to ask about any foggy details
